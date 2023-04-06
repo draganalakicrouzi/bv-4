@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html lang="en">
+    <head>
+        <title>B.V.4  mobile-first projects on the web</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Dragana Lakic">
+        <meta name="description" content="bootstrap">
+        <meta name="key words" content="mobile-first, bootstrap, html, css, js">
+        
+        <!--reset-->
+        <link href="./css/normalize.css" rel="stylesheet" type="text/css"/>
+        
+        <!--theme css-->
+        <link href="./css/theme.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <!-- header start -->
+        <header>
+            <div class="container d-flex justify-between align-center">
+                <!-- logo start -->
+                <a href="index.html" class="logo">
+                    <img src="./images/logo header.png" alt=""/>
+                </a> <!-- logo end -->
+                <!-- nav start -->
+                <nav class="main-nav">
+                    <ul class="main-menu d-flex">
+                        <li>
+                            <a class="active" href="home">home</a>
+                        </li>
+                          <li>
+                            <a href="layout">layout</a>
+                        </li>
+                          <li>
+                            <a href="grid">grid</a>
+                        </li>
+                    </ul>
+                </nav><!-- nav end -->
+            </div>
+            
+            
+        </header><!-- header end -->
+        <!-- main start -->
+        <main>
+            <!-- Section Home start -->
+            <section id="home" class="home">
+                <div class="container d-flex justify-between">
+                    <article class="home-item two-column">
+                        <h1 class="home-item-title text-left">
+                            What is Bv4?
+                        </h1>
+                        <p class="home-item-text text-left">
+                            Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.
+                        </p>
+                        <br>
+                        <p class="home-item-text text-left">
+                            Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
+                        </p>
+                    </article>
+                    <figure class="home-item two-column">
+                        <a href="#" class="home-item-photo">
+                            <img src="./images/mobile phone.png" alt=""/>
+                        </a>
+                    </figure>
+                </div>
+                
+            </section><!-- Section Home end -->
+            <!-- Section Layout start -->
+            <section id="layout" class="layout">
+                <h2 class="layout-titel text-center">
+                    layout
+                </h2>
+                <div class="d-flex wrap around-between three-column">
+                    <article class="layout-item d-flex justify-between">
+                        <aside class="layout-item-icon">
+                        <span class="fa-solid fa-location-arrow"></span>
+                        </aside>
+                        <div class="wrapper">
+                        <h3 class="layout-item-titel">
+                            <a href="#">Easy to use</a>
+                        </h3>
+                        <p class="layout-item-text">
+                            Saves time and is easy to use. Using Bootstrap,
+                            you can save a lot of time.
+                        </p>
+                        </div>
+                    </article>
+                    <article class="layout-item d-flex justify-between">
+                        <aside class="layout-item-icon">
+                        <span class="fa-solid fa-mobile-screen"></span>
+                        </aside>
+                         <div class="wrapper">
+                        <h3 class="layout-item-titel">
+                            <a href="#">Mobile first</a>
+                        </h3>
+                        <p class="layout-item-text">
+                            Bootstrap is developed mobile first, a strategy in 
+                            which we optimize code for mobile devices first and 
+                            then scale up components as necessary using CSS 
+                            media queries.
+                        </p>
+                        </div>
+                    </article>
+                    <article class="layout-item d-flex justify-between">
+                        <aside class="layout-item-icon">
+                        <span class="fa-solid fa-laptop-code"></span>
+                        </aside>
+                        <div class="wrapper">
+                        <h3 class="layout-item-titel">
+                            <a href="#">Responsive</a>
+                        </h3>
+                        <p class="layout-item-text">
+                           Bootstrap includes a responsive, mobile first fluid 
+                           grid system that appropriately scales up to 12 
+                           columns as the device or viewport size increases.
+                        </p>
+                        </div>
+                    </article>
+                    <article class="layout-item d-flex justify-between">
+                        <aside class="layout-item-icon">
+                        <span class="fa-brands fa-internet-explorer"></span>
+                        </aside>
+                        <div class="wrapper">
+                        <h3 class="layout-item-titel">
+                            <a href="#">Browser compatibility</a>
+                        </h3>
+                        <p class="layout-item-text">
+                            Bootstrap supports the latest, stable releases of 
+                            all major browsers and platforms.
+                        </p>
+                        </div>
+                    </article>
+                    <article class="layout-item d-flex justify-between">
+                        <aside class="layout-item-icon">
+                        <span class="fa-brands fa-sass"></span>
+                        </aside>
+                        <div class="wrapper">
+                        <h3 class="layout-item-titel">
+                            <a href="#">SASS & CSS</a>
+                        </h3>
+                        <p class="layout-item-text">
+                            Download Bootstrap to get the compiled CSS and 
+                            JavaScript or SASS source code.
+                        </p>
+                        </div>
+                    </article>
+                    <article class="layout-item d-flex justify-between">
+                        <aside class="layout-item-icon">
+                        <span class="fa-solid fa-gear"></span>
+                        </aside>
+                        <div class="wrapper">
+                        <h3 class="layout-item-titel">
+                            <a href="#">Easily customizable</a>
+                        </h3>
+                        <p class="layout-item-text">
+                            Bootstrap 4 has a huge number of customization 
+                            options that control nearly every aspect the framework.
+                        </p>
+                         </div>
+                    </article>
+                </div>
+                
+            </section><!-- Section Layout end -->
+            <!-- Section Grid start -->
+            <section id="grid" class="grid">
+                <div class="container">
+                    <h2 class="grid-title text-center">Grid</h2>
+                    <div class="d-flex wrap justify-between four-column">
+                        <article class="grid-item">
+                            <span class="grid-item-number d-block">1</span>
+                            <h3 class="grid-item-title">
+                                <a href="#">Container</a>
+                            </h3>
+                            <p class="grid-item-text letter-spacing-negative">
+                                Containers provide a means to center and 
+                                horizontally pad your site’s contents. Use 
+                                .container for a responsive pixel width or 
+                                .container-fluid for width: 100% across all 
+                                viewport and device sizes.
+                            </p>
+                        </article>
+                        <article class="grid-item">
+                            <span class="grid-item-number d-block">2</span>
+                            <h3 class="grid-item-title">
+                                <a href="#">Row</a>
+                            </h3>
+                            <p class="grid-item-text letter-spacing-negative">
+                                Rows are wrappers for columns. Each column has 
+                                horizontal padding (called a gutter) for 
+                                controlling the space between them. This padding 
+                                is then counteracted on the rows with negative margins.
+                            </p>
+                        </article>
+                        <article class="grid-item">
+                            <span class="grid-item-number d-block">3</span>
+                            <h3 class="grid-item-title">
+                                <a href="#">Cols</a>
+                            </h3>
+                            <p class="grid-item-text letter-spacing-negative">
+                                Column classes indicate the number of columns 
+                                you’d like to use out of the possible 12 per row.
+                                So, if you want three equal-width columns across,
+                                you can use .col-4.
+                            </p>
+                        </article>
+                        <article class="grid-item">
+                            <span class="grid-item-number d-block">4</span>
+                            <h3 class="grid-item-title">
+                                <a href="#">Content</a>
+                            </h3>
+                            <p class="grid-item-text letter-spacing-negative">
+                                In a grid layout, content must be placed within 
+                                columns and only columns may be immediate 
+                                children of rows.
+                            </p>
+                        </article>
+                    </div>
+                    
+                </div>
+            </section><!-- Section Grid end -->
+            
+        </main><!--main end -->
+        <!-- footer start -->
+        <footer>
+            <div class="container d-flex justify-between">
+                <!-- footer logo start -->
+                <a href="#" class="logo">
+                    <img src="./images/footer logo.png" alt=""/>
+                </a><!-- footer logo start -->
+                <!-- Simbol &copy start -->
+                <h2>Bv4 &copy;. All Rights Reserverd.
+                </h2> <!-- Simbol &copy start -->
+                
+            </div>
+        </footer><!-- footer end -->
+        
+        <!--font awesome-->
+        <script src="https://kit.fontawesome.com/08d5b84b49.js" crossorigin="anonymous"></script>
+    </body>
+</html>

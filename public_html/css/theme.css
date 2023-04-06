@@ -1,0 +1,250 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Nov 10, 2022, 11:32:16 PM
+    Author     : Dragana
+*/
+
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight:  400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: normal;
+    color: #2C2D3C;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1170px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #2C2D3C;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.letter-spacing-negative{
+    letter-spacing: -0.03rem;
+}
+.d-flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.around-between{
+    justify-content: space-around;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.two-column{
+    flex: 0 0 48%;
+}
+
+.three-column{
+    flex: 0 0 33.33%;
+    }
+    .four-column{
+        flex: 0 0 25%;
+    }
+.d-block{
+    display: block;
+        
+    }
+.section-title{
+    font-size: 2.0rem;
+    line-height: 2.4rem;
+    color: #2C2D3C;
+}
+
+/*HEADER*/
+header{
+    background-color: #FFFFFF;
+    padding: 20px 0 19px 0;
+}
+header .logo img{
+    display: block;
+}
+header .main-menu li{
+    margin-left: 150px;
+}
+
+header .main-menu{
+    list-style: none;
+    padding-left: 0;
+}
+header .main-menu a:hover,
+header .main-menu a.active{
+    border-bottom: 2px solid #28A745;
+}
+header .main-menu a{
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    width: 700px;
+    text-align: center;
+    color: #2C2D3C;
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 1.9rem;
+    letter-spacing: 0.46px;
+}
+
+/*HOME*/
+
+.home article{
+    padding: 90px 0 169px 0;
+}
+.home .home-item-title{
+    font-size: 56px;
+    line-height: 76px;
+    margin-bottom: 26px;
+}
+.home .home-item-text{
+    line-height: 2.6rem;
+}
+.home{
+    margin-bottom: 82px;
+}
+/*LAYOUT*/
+.layout .layout-titel{
+    font-size: 3.2rem;
+    line-height: 4.3rem;
+    text-transform: capitalize;
+    margin-bottom: 3.5rem;
+}
+.layout .layout-item .layout-item-icon{
+    flex: 0 0 30%;
+}
+.layout .layout-item .wrapper{
+    flex: 0 0 70%;
+}
+.layout .layout-item{
+    width: 33.33%;
+    text-align: left;
+    background-color: #F4F4F4;
+    margin-bottom: 1.7rem;
+}
+.layout .layout-item .layout-item-icon span{
+    font-size: 4.4rem;
+}
+
+.layout .layout-item:nth-of-type(3n){
+    margin-right: 0;
+}
+
+.layout div .layout-item .layout-item-titel a{
+    color: #2C2D3C;
+    font-size: 2.0rem;
+    line-height: 2.6rem;
+    text-decoration: none;
+    margin-bottom: 0.1rem;
+    
+}
+.layout div .layout-item .layout-item-titel a:hover{
+    color: #5a5000;
+}
+.layout{
+    margin-bottom: 8.6rem;
+}
+
+/*GRID*/
+.grid .grid-item{
+    padding: 4.5rem 1.5rem 5.0rem 1.5rem;
+}
+.grid .grid-title{
+    font-size: 3.2rem;
+    line-height: 4.3rem;
+    text-transform: capitalize;
+    margin-bottom: 5.0rem;
+}
+
+.grid .grid-item{
+    width: 25%;
+    background-color: #F4F4F4;
+    color: #2C2D3C;
+    text-align: center;
+}
+.grid .grid-item .grid-item-number{ 
+    font-size: 2.8rem;
+    color: #000000;
+    text-decoration: none;
+    width: 68px;
+    height: 68px;
+    line-height: 68px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    margin-left: 10rem;
+    margin-bottom: 1.7rem;
+}
+.grid .grid-item .grid-item-number:even{
+    color: #FFFFFF;
+    background-color: #000000;
+}
+.grid .grid-item-title a{
+    color: #2C2D3C;
+    font-size: 2.0rem;
+    line-height: 2.6rem;
+    text-decoration: none;
+    margin-bottom: 0.6rem;
+}
+.grid .grid-item-title a:hover{
+    color: #5a5000;
+}
+.grid .grid-item:nth-of-type(2n-1){
+    background-color:#2C2D3C;
+    color: #FFFFFF;
+}
+.grid .grid-item-title a:nth-of-type(2n-1){
+    color: #FFFFFF;
+}
+
+main{
+    margin-bottom: 12.6rem;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #28A745;
+    padding: 20px 0;
+}
+footer .logo img{
+    display: block;
+}
+footer div h2{
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    letter-spacing: 0.072rem;
+    color: #FFFFFF;
+    
+}
